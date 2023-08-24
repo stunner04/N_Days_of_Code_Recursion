@@ -71,6 +71,8 @@ public:
     vector<string> findPath(vector<vector<int>> &m, int n)
     {
 
+        ios_base::sync_with_stdio(false);
+        cin.tie(NULL);
         vector<string> ans;
         if (m[0][0] == 0)
             return ans;
